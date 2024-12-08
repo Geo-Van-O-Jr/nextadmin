@@ -1,0 +1,91 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+}
+
+.addButton {
+  padding: 10px;
+  background-color: #5d57c9;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse; 
+  table-layout: fixed; /* This ensures columns have fixed widths */
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left; 
+}
+
+/* Product Row Styling */
+.products {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productImage {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 40px; 
+  height: 40px; 
+}
+
+/* Button Styling */
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.view, 
+.deleteButton, 
+.editButton { /* Common button styles */
+  padding: 8px 12px; /* Adjusted padding */
+  border-radius: 5px;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 14px; 
+  text-decoration: none; /* Remove underline from button text */
+}
+
+.view { 
+  background-color: teal;
+}
+
+.deleteButton {
+  background-color: crimson;
+}
+
+.editButton {
+  background-color: #ff9e0c;
+}
+
+.productActions {
+  display: flex;
+  gap: 10px;
+}
+
+.productLink {
+  text-decoration: none;
+  color: var(--text);
+}
+
